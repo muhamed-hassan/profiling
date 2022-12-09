@@ -1,0 +1,6 @@
+sample:
+  db:
+    url: 'jdbc:<DB_PRODUCT_NAME>://localhost:<DB_PORT>/<DB_NAME>'
+    
+# DB_PRODUCT_NAME => MySQL, Oracle, SQL Server, ...    
+      
