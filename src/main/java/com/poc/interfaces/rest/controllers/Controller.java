@@ -20,9 +20,9 @@ public class Controller {
 	
 	@GetMapping
 	public ResponseEntity<Map<String, String>> get() {
-		var response = Map.of("activeProfile", activeProfile,
+		var responseBody = Map.of("activeProfile", activeProfile,
 								"activeDbUrl", sampleDbUrl);
-		return ResponseEntity.ok(response);
+		return ResponseEntity.ok(responseBody);
 	}
 	
 }
