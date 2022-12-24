@@ -1,8 +1,10 @@
 package com.poc.interfaces.rest.controllers;
 
+import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -20,9 +22,12 @@ public class Controller {
 	
 	@GetMapping
 	public ResponseEntity<Map<String, String>> get() {
-		var responseBody = Map.of("activeProfile", activeProfile,
-								"activeDbUrl", sampleDbUrl);
-		return ResponseEntity.ok(responseBody);
+		
+		Map<String, String> responseBody = new HashMap<String, String>(2);
+		responseBody.put("activeProfile", activeProfile);
+		responseBody.put("activeDbUrl", sampleDbUrl);
+		
+		return new ResponseEntity<Map<String, String>>(responseBody, HttpStatus.OK);
 	}
 	
 }
