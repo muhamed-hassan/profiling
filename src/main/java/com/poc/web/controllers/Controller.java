@@ -1,4 +1,4 @@
-package com.poc.interfaces.rest.controllers;
+package com.poc.web.controllers;
 
 import java.util.HashMap;
 import java.util.Map;
