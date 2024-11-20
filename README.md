@@ -6,4 +6,4 @@
 
 ***
 
-![madara_uchiha_wallpaper_by_dinocozero_dedd9m3](https://github.com/user-attachments/assets/8d0fcd4e-16cb-44fe-9454-fd58ced49a00)
+![di7f6y9-4256244c-efc0-4496-8a49-b7f59907863a](https://github.com/user-attachments/assets/012c1bf9-a1d1-4710-9d46-c245ccfa0202)
