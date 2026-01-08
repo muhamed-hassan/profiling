@@ -1,4 +1,4 @@
-ARG TARGET_DEPLOYMENT_ENVIRONMENT="testing"
+ARG TARGET_DEPLOYMENT_ENVIRONMENT
 
 FROM openjdk:11-jre
 COPY ./target/<packageName>.jar <packageName>.jar
