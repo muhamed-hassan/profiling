@@ -1,4 +1,4 @@
-package com.poc.web.controllers;
+package app.web.controllers;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -11,8 +11,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("v1/resources")
-public class Controller {
+@RequestMapping("db-profiles")
+public class DbProfilesController {
 
 	@Value("${spring.profiles.active}")
 	private String activeProfile;
